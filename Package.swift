@@ -9,13 +9,13 @@ let package = Package(
     products: [
         .library(
             name: "FAInteractiveView",
-            targets: ["InteractiveUITest"]),
+            targets: ["FAInteractiveView"]),
     ],
     dependencies: [
         // no dependencies
     ],
     targets: [
-        .target(name: "InteractiveUITest", path: "InteractiveUITest/Source")
+        .target(name: "FAInteractiveView", path: "FAInteractiveView/Source")
     ]
 )
     

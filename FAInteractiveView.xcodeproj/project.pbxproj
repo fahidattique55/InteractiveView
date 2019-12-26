@@ -60,7 +60,7 @@
 		93D4714023B1B4E0005C4450 = {
 			isa = PBXGroup;
 			children = (
-				93D4714B23B1B4E0005C4450 /* InteractiveUITest */,
+				93D4714B23B1B4E0005C4450 /* FAInteractiveView */,
 				93D4714A23B1B4E0005C4450 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +73,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		93D4714B23B1B4E0005C4450 /* InteractiveUITest */ = {
+		93D4714B23B1B4E0005C4450 /* FAInteractiveView */ = {
 			isa = PBXGroup;
 			children = (
 				932A6F0323B483F100359BF9 /* Package.swift */,
@@ -90,15 +90,15 @@
 				93D4715723B1B4E1005C4450 /* LaunchScreen.storyboard */,
 				93D4715A23B1B4E1005C4450 /* Info.plist */,
 			);
-			path = InteractiveUITest;
+			path = FAInteractiveView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		93D4714823B1B4E0005C4450 /* InteractiveUITest */ = {
+		93D4714823B1B4E0005C4450 /* FAInteractiveView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93D4715D23B1B4E1005C4450 /* Build configuration list for PBXNativeTarget "InteractiveUITest" */;
+			buildConfigurationList = 93D4715D23B1B4E1005C4450 /* Build configuration list for PBXNativeTarget "FAInteractiveView" */;
 			buildPhases = (
 				93D4714523B1B4E0005C4450 /* Sources */,
 				93D4714623B1B4E0005C4450 /* Frameworks */,
@@ -108,7 +108,7 @@
 			);
 			dependencies = (
 			);
-			name = InteractiveUITest;
+			name = FAInteractiveView;
 			productName = InteractiveUITest;
 			productReference = 93D4714923B1B4E0005C4450 /* InteractiveUI.app */;
 			productType = "com.apple.product-type.application";
@@ -128,7 +128,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 93D4714423B1B4E0005C4450 /* Build configuration list for PBXProject "InteractiveUITest" */;
+			buildConfigurationList = 93D4714423B1B4E0005C4450 /* Build configuration list for PBXProject "FAInteractiveView" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -141,7 +141,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				93D4714823B1B4E0005C4450 /* InteractiveUITest */,
+				93D4714823B1B4E0005C4450 /* FAInteractiveView */,
 			);
 		};
 /* End PBXProject section */
@@ -353,7 +353,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		93D4714423B1B4E0005C4450 /* Build configuration list for PBXProject "InteractiveUITest" */ = {
+		93D4714423B1B4E0005C4450 /* Build configuration list for PBXProject "FAInteractiveView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				93D4715B23B1B4E1005C4450 /* Debug */,
@@ -362,7 +362,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93D4715D23B1B4E1005C4450 /* Build configuration list for PBXNativeTarget "InteractiveUITest" */ = {
+		93D4715D23B1B4E1005C4450 /* Build configuration list for PBXNativeTarget "FAInteractiveView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				93D4715E23B1B4E1005C4450 /* Debug */,
