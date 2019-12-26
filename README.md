@@ -48,17 +48,10 @@ Right now **InteractiveView** is only supported via swift package manager. You c
 
 ## Usage
 
+- Set the class of your UIVIew in xib or storyboard as **InteractiveView** and make it fluid interactive.
 
-### Step 1 
+![Alt text](https://i.imgur.com/9Ed6o5R.png "FAPanel-Image-Usage")
 
-- Set the class of your UIVIew in xib or storyboard as **InteractiveView**
-
-![Alt text](http://i.imgur.com/OkPdbBi.png "FAPanel-Image-Usage")
-
-
-### Step 2 
-
-- **No Step 2 !!!**
 
 
 
