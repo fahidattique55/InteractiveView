@@ -20,7 +20,7 @@ public class InteractiveView: UIView {
     
     //MARK: Class Properties
     private var overlayView: UIView!
-
+    
     //MARK: Life Cycle
     required init?(coder: NSCoder) {
         super.init(coder: coder)
