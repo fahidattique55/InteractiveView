@@ -65,7 +65,7 @@ Right now **InteractiveView** is only supported via swift package manager. You c
 
 InteractiveView is licensed under MIT.
 
-For more details visit the [LICENSE](https://github.com/fahidattique55/InteractiveUITest/master/LICENSE) file for more info.
+For more details visit the [LICENSE](https://github.com/fahidattique55/InteractiveView/blob/master/LICENSE.txt) file for more info.
 
 
 ## Author
