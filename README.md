@@ -24,7 +24,8 @@ We want our views feel more responsive, acknowledging to the user that they are 
 
 ## What are fluid interfaces?
 
-A fluid interface might also be called “fast”, “smooth”, “natural”, or “magical”. It’s a frictionless experience that just feels “right”.
+A fluid interface might also be called ***fast***, ***smooth***, ***natural***, or ***magical***. It’s a frictionless experience that just feels ***right***.
+
 The WWDC presentation talks about fluid interfaces as “an extension of your mind” and “an extension of the natural world”. An interface is fluid when it behaves according to the way people think, not the way machines think.
 
 
