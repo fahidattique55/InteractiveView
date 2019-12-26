@@ -11,12 +11,12 @@ import UIKit
 public class InteractiveView: UIView {
     
     //MARK: Static Properties
-    static var transformationOriginalSize = CGAffineTransform(scaleX: 1, y: 1)
-    static var transformationShrinkSize = CGAffineTransform(scaleX: 0.95, y: 0.95)
-    static var overlayColor = UIColor.black.withAlphaComponent(0.08)
-    static var animationDuration: TimeInterval = 0.0
-    static var dampingRatio: CGFloat = 1.0
-    static var initialVelocity = CGVector(dx: 0.2, dy: 0.2)
+    public static var transformationOriginalSize = CGAffineTransform(scaleX: 1, y: 1)
+    public static var transformationShrinkSize = CGAffineTransform(scaleX: 0.95, y: 0.95)
+    public static var overlayColor = UIColor.black.withAlphaComponent(0.08)
+    public static var animationDuration: TimeInterval = 0.0
+    public static var dampingRatio: CGFloat = 1.0
+    public static var initialVelocity = CGVector(dx: 0.2, dy: 0.2)
     
     //MARK: Class Properties
     private var overlayView: UIView!
