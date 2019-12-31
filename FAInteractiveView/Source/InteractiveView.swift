@@ -14,7 +14,7 @@ public class InteractiveView: UIView {
     public static var transformationOriginalSize = CGAffineTransform(scaleX: 1, y: 1)
     public static var transformationShrinkSize = CGAffineTransform(scaleX: 0.95, y: 0.95)
     public static var overlayColor = UIColor.black.withAlphaComponent(0.08)
-    public static var animationDuration: TimeInterval = 0.0
+    public static var durationForAnimation: TimeInterval = 0.0
     public static var dampingRatio: CGFloat = 1.0
     public static var initialVelocity = CGVector(dx: 0.2, dy: 0.2)
     
@@ -29,6 +29,11 @@ public class InteractiveView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        commonInIt()
+    }
+    
+    public override func awakeFromNib() {
+        super.awakeFromNib()
         commonInIt()
     }
     
@@ -58,6 +63,8 @@ public class InteractiveView: UIView {
         overlayView = UIView(frame: bounds)
         overlayView.backgroundColor = InteractiveView.overlayColor
         overlayView.isHidden = true
+        overlayView.layer.cornerRadius = layer.cornerRadius
+        overlayView.clipsToBounds = true
         addSubview(overlayView)
     }
     
@@ -79,10 +86,11 @@ public class InteractiveView: UIView {
     private func performTransformation(_ transformation: CGAffineTransform, hideOverlay: Bool) {
 
         let timingParameters = UISpringTimingParameters(dampingRatio: InteractiveView.dampingRatio, initialVelocity: InteractiveView.initialVelocity)
-        let animator = UIViewPropertyAnimator(duration: InteractiveView.animationDuration, timingParameters: timingParameters)
+        let animator = UIViewPropertyAnimator(duration: InteractiveView.durationForAnimation, timingParameters: timingParameters)
         animator.addAnimations { [weak self] in
             guard let weakSelf = self else { return }
             weakSelf.transform = transformation
+            weakSelf.overlayView.frame = weakSelf.bounds
             weakSelf.overlayView.isHidden = hideOverlay
         }
         animator.isInterruptible = true
